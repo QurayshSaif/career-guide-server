@@ -1,0 +1,212 @@
+{
+  "people": {
+    "healthcare": 2,
+    "education": 2,
+    "counseling": 1,
+    "customer_service": 1
+  },
+  "data": {
+    "finance": 2,
+    "accounting": 2,
+    "statistics": 1,
+    "research": 1
+  },
+  "ideas": {
+    "creative": 2,
+    "innovation": 2,
+    "strategy": 1,
+    "analysis": 1
+  },
+  "hands": {
+    "construction": 2,
+    "manufacturing": 2,
+    "repair": 1,
+    "maintenance": 1
+  },
+  "difference": {
+    "social_work": 2,
+    "non_profit": 2,
+    "public_service": 1,
+    "advocacy": 1
+  },
+  "salary": {
+    "finance": 2,
+    "law": 2,
+    "business": 1,
+    "technology": 1
+  },
+  "challenge": {
+    "science": 2,
+    "engineering": 2,
+    "research": 1,
+    "analysis": 1
+  },
+  "innovation": {
+    "technology": 2,
+    "research": 2,
+    "design": 1,
+    "entrepreneurship": 1
+  },
+  "meetings": {
+    "management": 2,
+    "sales": 2,
+    "human_resources": 1,
+    "marketing": 1
+  },
+  "solo": {
+    "research": 2,
+    "programming": 2,
+    "analysis": 1,
+    "writing": 1
+  },
+  "teamwork": {
+    "consulting": 2,
+    "design": 2,
+    "project_management": 1,
+    "entrepreneurship": 1
+  },
+  "hands-on": {
+    "construction": 2,
+    "manufacturing": 2,
+    "repair": 1,
+    "maintenance": 1
+  },
+  "office": {
+    "business": 2,
+    "law": 2,
+    "technology": 1,
+    "finance": 1
+  },
+  "outdoors": {
+    "agriculture": 2,
+    "forestry": 2,
+    "environment": 1,
+    "landscaping": 1
+  },
+  "home": {
+    "remote_work": 2,
+    "writing": 2,
+    "design": 1,
+    "consulting": 1
+  },
+  "fast-paced": {
+    "emergency_services": 2,
+    "hospitality": 2,
+    "retail": 1,
+    "transportation": 1
+  },
+  "helping": {
+    "healthcare": 2,
+    "social_work": 2,
+    "education": 1,
+    "counseling": 1
+  },
+  "complex": {
+    "science": 2,
+    "engineering": 2,
+    "law": 1,
+    "finance": 1
+  },
+  "creating": {
+    "art": 2,
+    "design": 2,
+    "entrepreneurship": 1,
+    "writing": 1
+  },
+  "leading": {
+    "management": 2,
+    "entrepreneurship": 2,
+    "project_management": 1,
+    "sales": 1
+  },
+  "very": {
+    "work_life_balance": 2,
+    "healthcare": 1,
+    "education": 1,
+    "non_profit": 1
+  },
+  "somewhat": {
+    "technology": 2,
+    "business": 1,
+    "finance": 1,
+    "law": 1
+  },
+  "not-very": {
+    "hospitality": 2,
+    "emergency_services": 1,
+    "retail": 1,
+    "transportation": 1
+  },
+  "not-at-all": {
+    "entrepreneurship": 2,
+    "law": 1,
+    "finance": 1,
+    "technology": 1
+  },
+  "9-5": {
+    "stability": 2,
+    "routine": 2,
+    "collaboration": 1,
+    "customer_interaction": 1
+  },
+  "flexible": {
+    "autonomy": 2,
+    "variety": 2,
+    "creativity": 1,
+    "adaptability": 1
+  },
+  "part-time": {
+    "work_life_balance": 2,
+    "flexibility": 2,
+    "freedom": 1,
+    "financial_security": 1
+  },
+  "night-shift": {
+    "differential_pay": 2,
+    "quiet_environment": 2,
+    "less_traffic": 1,
+    "less_interruptions": 1
+  },
+  "collaborative": {
+    "teamwork": 2,
+    "communication": 2,
+    "support": 1,
+    "brainstorming": 1
+  },
+  "independent": {
+    "autonomy": 2,
+    "selfdirection": 2,
+    "flexibility": 1,
+    "focus": 1
+  },
+  "structured": {
+    "stability": 2,
+    "clarity": 2,
+    "routine": 1,
+    "efficiency": 1
+  },
+  "analysis": {
+    "critical_thinking": 2,
+    "problem_solving": 2,
+    "attention_to_detail": 1,
+    "research": 1
+  },
+  "teaching": {
+    "mentorship": 2,
+    "interpersonal_skills": 2,
+    "patience": 1,
+    "guidance": 1
+  },
+  "creation": {
+    "innovation": 2,
+    "creativity": 2,
+    "design": 1,
+    "ideation": 1
+  },
+  "physical": {
+    "strength": 2,
+    "dexterity": 2,
+    "endurance": 1,
+    "handeyecoordination": 1
+  }
+}

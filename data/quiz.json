@@ -1,0 +1,108 @@
+[
+  {
+    "question": "What type of work do you enjoy most?",
+    "answers": [
+      { "text": "Working with people", "value": "people" },
+      { "text": "Working with data and numbers", "value": "data" },
+      { "text": "Working with ideas and concepts", "value": "ideas" },
+      { "text": "Working with your hands", "value": "hands" }
+    ]
+  },
+  {
+    "question": "What motivates you in your work?",
+    "answers": [
+      {
+        "text": "Making a difference in people's lives",
+        "value": "difference"
+      },
+      { "text": "Earning a high salary", "value": "salary" },
+      {
+        "text": "Challenging yourself and learning new things",
+        "value": "challenge"
+      },
+      { "text": "Creating something new or innovative", "value": "innovation" }
+    ]
+  },
+  {
+    "question": "How do you prefer to spend your workday?",
+    "answers": [
+      {
+        "text": "In meetings and collaborations with colleagues",
+        "value": "meetings"
+      },
+      {
+        "text": "Analyzing data and solving problems on your own",
+        "value": "solo"
+      },
+      {
+        "text": "Brainstorming ideas and working on projects with a team",
+        "value": "teamwork"
+      },
+      {
+        "text": "Using your hands to build or create things",
+        "value": "hands-on"
+      }
+    ]
+  },
+  {
+    "question": "What is your preferred work environment?",
+    "answers": [
+      { "text": "Working in an office", "value": "office" },
+      { "text": "Working outdoors", "value": "outdoors" },
+      { "text": "Working from home", "value": "home" },
+      { "text": "Working in a fast-paced environment", "value": "fast-paced" }
+    ]
+  },
+  {
+    "question": "What type of tasks do you find most rewarding?",
+    "answers": [
+      { "text": "Helping others", "value": "helping" },
+      { "text": "Solving complex problems", "value": "complex" },
+      { "text": "Creating something from scratch", "value": "creating" },
+      { "text": "Leading and managing others", "value": "leading" }
+    ]
+  },
+  {
+    "question": "How important is work-life balance to you?",
+    "answers": [
+      { "text": "Very important", "value": "very" },
+      { "text": "Somewhat important", "value": "somewhat" },
+      { "text": "Not very important", "value": "not-very" },
+      { "text": "Not at all important", "value": "not-at-all" }
+    ]
+  },
+  {
+    "question": "What is your preferred work schedule?",
+    "answers": [
+      { "text": "9am-5pm, Monday-Friday", "value": "9-5" },
+      { "text": "Flexible schedule", "value": "flexible" },
+      { "text": "Part-time", "value": "part-time" },
+      { "text": "Night shift", "value": "night-shift" }
+    ]
+  },
+  {
+    "question": "What type of work culture do you prefer?",
+    "answers": [
+      { "text": "Collaborative", "value": "collaborative" },
+      { "text": "Independent", "value": "independent" },
+      { "text": "Structured", "value": "structured" },
+      { "text": "Flexible", "value": "flexible" }
+    ]
+  },
+
+  {
+    "question": "What kind of tasks do you enjoy doing the most?",
+    "answers": [
+      { "text": "Analyzing data and solving problems", "value": "analysis" },
+      { "text": "Teaching, mentoring, or helping others", "value": "teaching" },
+      {
+        "text": "Creating new things or designing solutions",
+        "value": "creation"
+      },
+      {
+        "text": "Performing physical tasks or working with tools or equipment",
+        "value": "physical"
+      }
+    ]
+  }
+]
