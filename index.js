@@ -2,7 +2,8 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
-// const questionRoutes = require("./routes/questions.js");
+const questionRoutes = require("./routes/questions.js");
+const scoringRoutes = require("./routes/scoringSystem.js");
 
 //environment variables
 const PORT = process.env.PORT || 5050;
@@ -21,7 +22,8 @@ app.get("/", (req, res) => {
   res.send("hello");
 });
 
-// app.use("/questions", questionRoutes);
+app.use("/questions", questionRoutes);
+app.use("/scoring", scoringRoutes);
 
 app.listen(PORT, () => {
   console.log("server started");
