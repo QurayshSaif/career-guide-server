@@ -23,6 +23,7 @@
       { "text": "Creating something new or innovative", "value": "innovation" }
     ]
   },
+
   {
     "question": "How do you prefer to spend your workday?",
     "answers": [
@@ -89,7 +90,6 @@
       { "text": "Flexible", "value": "flexible" }
     ]
   },
-
   {
     "question": "What kind of tasks do you enjoy doing the most?",
     "answers": [

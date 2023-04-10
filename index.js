@@ -4,6 +4,7 @@ const cors = require("cors");
 const app = express();
 const questionRoutes = require("./routes/questions.js");
 const scoringRoutes = require("./routes/scoringSystem.js");
+const jobsRoutes = require("./routes/jobsRoutes.js");
 
 //environment variables
 const PORT = process.env.PORT || 5050;
@@ -24,6 +25,7 @@ app.get("/", (req, res) => {
 
 app.use("/questions", questionRoutes);
 app.use("/scoring", scoringRoutes);
+app.use("/jobs", jobsRoutes);
 
 app.listen(PORT, () => {
   console.log("server started");
