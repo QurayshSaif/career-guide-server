@@ -11,4 +11,9 @@ router.get("/", (_req, res) => {
   res.send(quiz);
 });
 
+// GET First 3 quiz questions
+router.get("/quick", (_req, res) => {
+  res.send(quiz.slice(0, 5));
+});
+
 module.exports = router;
