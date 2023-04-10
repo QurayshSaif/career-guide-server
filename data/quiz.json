@@ -50,7 +50,7 @@
     "answers": [
       { "text": "Working in an office", "value": "office" },
       { "text": "Working outdoors", "value": "outdoors" },
-      { "text": "Working from home", "value": "home" },
+      { "text": "Working from home", "value": "remote" },
       { "text": "Working in a fast-paced environment", "value": "fast-paced" }
     ]
   },
@@ -66,10 +66,22 @@
   {
     "question": "How important is work-life balance to you?",
     "answers": [
-      { "text": "Very important", "value": "very" },
-      { "text": "Somewhat important", "value": "somewhat" },
-      { "text": "Not very important", "value": "not-very" },
-      { "text": "Not at all important", "value": "not-at-all" }
+      {
+        "text": "Extremely important, I need to have time for my personal life and interests",
+        "value": "very"
+      },
+      {
+        "text": "Somewhat important, I like to have some time for personal activities but can be flexible",
+        "value": "somewhat"
+      },
+      {
+        "text": "Not very important, I don't mind working long hours or weekends if necessary",
+        "value": "not-very"
+      },
+      {
+        "text": "I prefer to work remotely or have a flexible schedule",
+        "value": "remote"
+      }
     ]
   },
   {
@@ -102,6 +114,332 @@
       {
         "text": "Performing physical tasks or working with tools or equipment",
         "value": "physical"
+      }
+    ]
+  },
+  {
+    "question": "What is your preferred communication style at work?",
+    "answers": [
+      {
+        "text": "Formal and professional",
+        "value": "formal"
+      },
+      {
+        "text": "Informal and friendly",
+        "value": "informal"
+      },
+      {
+        "text": "Direct and straightforward",
+        "value": "direct"
+      },
+      {
+        "text": "Collaborative and inclusive",
+        "value": "collaborative"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred leadership style?",
+    "answers": [
+      {
+        "text": "Autocratic, I prefer a strong leader who makes decisions",
+        "value": "autocratic"
+      },
+      {
+        "text": "Democratic, I prefer a leader who involves the team in decision making",
+        "value": "democratic"
+      },
+      {
+        "text": "Laissez-faire, I prefer a leader who provides guidance but allows the team to make decisions",
+        "value": "laissez-faire"
+      },
+      {
+        "text": "Transformational, I prefer a leader who inspires and motivates the team towards a shared vision",
+        "value": "transformational"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred level of job security?",
+    "answers": [
+      {
+        "text": "High, I prefer a stable job with a consistent income",
+        "value": "high-security"
+      },
+      {
+        "text": "Moderate, I don't mind taking on some risk for potential rewards",
+        "value": "moderate-security"
+      },
+      {
+        "text": "Low, I prefer a high-risk, high-reward job",
+        "value": "low-security"
+      },
+      {
+        "text": "I am more concerned with job fulfillment and growth opportunities than job security",
+        "value": "job-fulfillment"
+      }
+    ]
+  },
+  {
+    "question": "What is your preferred level of autonomy at work?",
+    "answers": [
+      {
+        "text": "High, I prefer to have control over my own work and decisions",
+        "value": "high-autonomy"
+      },
+      {
+        "text": "Moderate, I prefer to have some autonomy but also value collaboration",
+        "value": "moderate-autonomy"
+      },
+      {
+        "text": "Low, I prefer to have clear guidance and direction from my supervisor",
+        "value": "low-autonomy"
+      },
+      {
+        "text": "I am open to different levels of autonomy depending on the job and tasks",
+        "value": "flexible-autonomy"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred method of receiving feedback at work?",
+    "answers": [
+      {
+        "text": "Regular one-on-one meetings with my supervisor",
+        "value": "one-on-one"
+      },
+      {
+        "text": "Written feedback via email or messaging",
+        "value": "written-feedback"
+      },
+      {
+        "text": "In-person feedback sessions with a group or team",
+        "value": "group-feedback"
+      },
+      {
+        "text": "Real-time feedback during tasks and projects",
+        "value": "real-time-feedback"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred way of learning new skills or knowledge at work?",
+    "answers": [
+      {
+        "text": "Formal training and courses",
+        "value": "formal-training"
+      },
+      {
+        "text": "Self-paced learning through online resources",
+        "value": "self-paced"
+      },
+      {
+        "text": "On-the-job training and mentorship",
+        "value": "on-the-job"
+      },
+      {
+        "text": "Informal learning through networking and conferences",
+        "value": "informal-learning"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred level of interaction with customers or clients?",
+    "answers": [
+      {
+        "text": "High, I enjoy working directly with customers and building relationships",
+        "value": "high-interaction"
+      },
+      {
+        "text": "Moderate, I am comfortable with some customer interaction but prefer to focus on my work",
+        "value": "moderate-interaction"
+      },
+      {
+        "text": "Low, I prefer to work behind the scenes and not interact with customers",
+        "value": "low-interaction"
+      },
+      {
+        "text": "I am open to different levels of customer interaction depending on the job and tasks",
+        "value": "flexible-interaction"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred company culture?",
+    "answers": [
+      {
+        "text": "Structured and formal",
+        "value": "structured"
+      },
+      {
+        "text": "Flexible and casual",
+        "value": "flexible"
+      },
+      {
+        "text": "Innovative and creative",
+        "value": "innovative"
+      },
+      {
+        "text": "Collaborative and team-oriented",
+        "value": "collaborative"
+      }
+    ]
+  },
+  {
+    "question": "What is your preferred leadership style?",
+    "answers": [
+      {
+        "text": "Democratic, with a focus on collaboration and shared decision-making",
+        "value": "democratic-leadership"
+      },
+      {
+        "text": "Authoritarian, with a focus on clear direction and top-down decision-making",
+        "value": "authoritarian-leadership"
+      },
+      {
+        "text": "Transformational, with a focus on inspiring and motivating team members",
+        "value": "transformational-leadership"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred level of physical activity at work?",
+    "answers": [
+      {
+        "text": "Sedentary, with most work done at a desk or computer",
+        "value": "sedentary"
+      },
+      {
+        "text": "Moderate, with some physical activity such as walking or standing",
+        "value": "moderate-activity"
+      },
+      {
+        "text": "High, with a focus on physical labor and manual tasks",
+        "value": "high-activity"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred level of travel for work?",
+    "answers": [
+      {
+        "text": "No travel, with all work done in one location",
+        "value": "no-travel"
+      },
+      {
+        "text": "Some travel, with occasional trips to other locations",
+        "value": "some-travel"
+      },
+      {
+        "text": "Frequent travel, with a focus on working in multiple locations",
+        "value": "frequent-travel"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred industry or field to work in?",
+    "answers": [
+      {
+        "text": "Technology",
+        "value": "technology"
+      },
+      {
+        "text": "Healthcare",
+        "value": "healthcare"
+      },
+      {
+        "text": "Finance",
+        "value": "finance"
+      },
+      {
+        "text": "Education",
+        "value": "education"
+      },
+      {
+        "text": "Entertainment",
+        "value": "entertainment"
+      },
+      {
+        "text": "Art",
+        "value": "art"
+      }
+    ]
+  },
+  {
+    "question": "What is your preferred level of risk in your work?",
+    "answers": [
+      {
+        "text": "Low, with a preference for stability and predictability",
+        "value": "low-risk"
+      },
+      {
+        "text": "Moderate, with a willingness to take calculated risks for better opportunities",
+        "value": "moderate-risk"
+      },
+      {
+        "text": "High, with a preference for fast-paced and innovative environments",
+        "value": "high-risk"
+      }
+    ]
+  },
+
+  {
+    "question": "What is your preferred level of customer interaction?",
+    "answers": [
+      {
+        "text": "High, with a focus on building strong relationships with clients",
+        "value": "high-customer-interaction"
+      },
+      {
+        "text": "Moderate, with some interaction but also a focus on independent work",
+        "value": "moderate-customer-interaction"
+      },
+      {
+        "text": "Low, with a preference for minimal customer interaction",
+        "value": "low-customer-interaction"
+      }
+    ]
+  },
+  {
+    "question": "What is your preferred level of responsibility in your work?",
+    "answers": [
+      {
+        "text": "Low, with a preference for minimal responsibility and direction",
+        "value": "low-responsibility"
+      },
+      {
+        "text": "Moderate, with a balance of responsibility and support from colleagues or superiors",
+        "value": "moderate-responsibility"
+      },
+      {
+        "text": "High, with a preference for taking on significant responsibility and leadership roles",
+        "value": "high-responsibility"
+      }
+    ]
+  },
+  {
+    "question": "What is your preferred level of technical proficiency in your work?",
+    "answers": [
+      {
+        "text": "Low, with a preference for non-technical or entry-level work",
+        "value": "low-tech"
+      },
+      {
+        "text": "Moderate, with a willingness to learn and apply technical skills as needed",
+        "value": "moderate-tech"
+      },
+      {
+        "text": "High, with a preference for complex and technical work requiring advanced skills and knowledge",
+        "value": "high-tech"
       }
     ]
   }

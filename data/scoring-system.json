@@ -137,11 +137,11 @@
     "retail": 1,
     "transportation": 1
   },
-  "not-at-all": {
+  "remote": {
     "entrepreneurship": 2,
     "law": 1,
-    "finance": 1,
-    "technology": 1
+    "finance": 2,
+    "technology": 3
   },
   "9-5": {
     "stability": 2,
@@ -208,5 +208,367 @@
     "dexterity": 2,
     "endurance": 1,
     "handeyecoordination": 1
+  },
+  "formal": {
+    "law": 2,
+    "finance": 2,
+    "government": 1,
+    "healthcare": 1
+  },
+  "informal": {
+    "marketing": 2,
+    "startup": 2,
+    "media": 1,
+    "arts": 1
+  },
+  "direct": {
+    "sales": 2,
+    "customer_service": 2,
+    "management": 1,
+    "law_enforcement": 1
+  },
+  "collaborative": {
+    "team_management": 2,
+    "human_resources": 2,
+    "social_work": 1,
+    "education": 1
+  },
+
+  "autocratic": {
+    "military": 2,
+    "law_enforcement": 2,
+    "emergency_services": 1,
+    "construction": 1
+  },
+  "democratic": {
+    "education": 2,
+    "healthcare": 2,
+    "technology": 1,
+    "media": 1
+  },
+  "laissez-faire": {
+    "arts": 2,
+    "research": 2,
+    "software_development": 1,
+    "marketing": 1
+  },
+  "transformational": {
+    "nonprofit": 2,
+    "leadership_development": 2,
+    "consulting": 1,
+    "human_resources": 1
+  },
+
+  "high-security": {
+    "government": 2,
+    "finance": 2,
+    "healthcare": 1,
+    "education": 1
+  },
+  "moderate-security": {
+    "technology": 2,
+    "business": 2,
+    "law": 1,
+    "marketing": 1
+  },
+  "low-security": {
+    "startup": 2,
+    "entrepreneurship": 2,
+    "entertainment": 1,
+    "sports": 1
+  },
+  "job-fulfillment": {
+    "social_work": 2,
+    "nonprofit": 2,
+    "education": 1,
+    "creative": 1
+  },
+  "high-autonomy": {
+    "entrepreneurship": 2,
+    "freelance": 2,
+    "research": 1,
+    "creative": 1
+  },
+  "moderate-autonomy": {
+    "management": 2,
+    "engineering": 2,
+    "marketing": 1,
+    "design": 1
+  },
+  "low-autonomy": {
+    "administration": 2,
+    "customer_service": 2,
+    "support": 1,
+    "data_entry": 1
+  },
+  "flexible-autonomy": {
+    "education": 2,
+    "healthcare": 2,
+    "sales": 1,
+    "consulting": 1
+  },
+
+  "one-on-one": {
+    "counseling": 2,
+    "coaching": 2,
+    "research": 1,
+    "writing": 1
+  },
+  "written-feedback": {
+    "administration": 2,
+    "technical_writing": 2,
+    "data_entry": 1,
+    "editing": 1
+  },
+  "group-feedback": {
+    "marketing": 2,
+    "design": 2,
+    "project_management": 1,
+    "sales": 1
+  },
+  "real-time-feedback": {
+    "customer_service": 2,
+    "emergency_services": 2,
+    "manufacturing": 1,
+    "construction": 1
+  },
+
+  "formal-training": {
+    "education": 2,
+    "healthcare": 2,
+    "engineering": 1,
+    "accounting": 1
+  },
+  "self-paced": {
+    "programming": 2,
+    "digital_marketing": 2,
+    "writing": 1,
+    "graphic_design": 1
+  },
+  "on-the-job": {
+    "apprenticeship": 2,
+    "culinary": 2,
+    "construction": 1,
+    "manufacturing": 1
+  },
+  "informal-learning": {
+    "networking": 2,
+    "entrepreneurship": 2,
+    "sales": 1,
+    "marketing": 1
+  },
+  "high-interaction": {
+    "sales": 2,
+    "customer_service": 2,
+    "public_relations": 1,
+    "marketing": 1
+  },
+  "moderate-interaction": {
+    "engineering": 2,
+    "programming": 2,
+    "research": 1,
+    "analysis": 1
+  },
+  "low-interaction": {
+    "data_entry": 2,
+    "accounting": 2,
+    "research": 1,
+    "programming": 1
+  },
+  "flexible-interaction": {
+    "consulting": 2,
+    "management": 2,
+    "education": 1,
+    "healthcare": 1
+  },
+
+  "structured": {
+    "government": 2,
+    "finance": 2,
+    "legal": 1,
+    "consulting": 1
+  },
+  "flexible": {
+    "technology_startups": 2,
+    "creative_agencies": 2,
+    "media": 1,
+    "marketing": 1
+  },
+  "innovative": {
+    "technology": 2,
+    "research_and_development": 2,
+    "creative_agencies": 1,
+    "startups": 1
+  },
+  "collaborative": {
+    "healthcare": 2,
+    "education": 2,
+    "nonprofit": 1,
+    "consulting": 1
+  },
+
+  "democratic-leadership": {
+    "education": 2,
+    "nonprofit": 2,
+    "healthcare": 1,
+    "government": 1
+  },
+  "authoritarian-leadership": {
+    "military": 2,
+    "law_enforcement": 2,
+    "manufacturing": 1,
+    "construction": 1
+  },
+  "transformational-leadership": {
+    "technology": 2,
+    "creative_agencies": 2,
+    "startups": 1,
+    "research_and_development": 1
+  },
+  "sedentary": {
+    "technology": 1,
+    "finance": 1,
+    "education": 1,
+    "healthcare": 1
+  },
+  "moderate-activity": {
+    "technology": 1,
+    "education": 1,
+    "healthcare": 1,
+    "entertainment": 1,
+    "art": 1
+  },
+  "high-activity": {
+    "construction": 2,
+    "manufacturing": 2,
+    "healthcare": 1,
+    "entertainment": 1
+  },
+  "no-travel": {
+    "education": 2,
+    "finance": 1,
+    "healthcare": 1,
+    "art": 1
+  },
+  "some-travel": {
+    "technology": 2,
+    "finance": 1,
+    "entertainment": 1,
+    "healthcare": 1
+  },
+  "frequent-travel": {
+    "consulting": 2,
+    "sales": 2,
+    "technology": 1,
+    "finance": 1
+  },
+  "technology": {
+    "IT": 3,
+    "software_development": 3,
+    "engineering": 1
+  },
+  "healthcare": {
+    "nursing": 2,
+    "medicine": 2,
+    "pharmaceuticals": 1,
+    "therapy": 1
+  },
+  "finance": {
+    "banking": 2,
+    "investment_banking": 2,
+    "accounting": 1,
+    "insurance": 1
+  },
+  "education": {
+    "teaching": 2,
+    "research": 2,
+    "administration": 1,
+    "counseling": 1
+  },
+  "entertainment": {
+    "performing_arts": 2,
+    "media": 2,
+    "gaming": 3,
+    "sports": 3
+  },
+  "art": {
+    "fine_art": 2,
+    "graphic_design": 2,
+    "photography": 1,
+    "fashion": 1
+  },
+  "low-risk": {
+    "government_jobs": 4,
+    "tenured_academia": 2,
+    "banking": 2,
+    "insurance": 1
+  },
+  "moderate-risk": {
+    "consulting": 2,
+    "marketing": 2,
+    "startup": 2,
+    "real_estate": 1
+  },
+  "high-risk": {
+    "venture_capital": 2,
+    "entrepreneurship": 3,
+    "stock_trading": 4,
+    "crypto_trading": 4
+  },
+
+  "high-customer-interaction": {
+    "sales": 4,
+    "customer_support": 3,
+    "hospitality": 4,
+    "events": 3
+  },
+  "moderate-customer-interaction": {
+    "software_development": 2,
+    "writing": 2,
+    "design": 3,
+    "research": 1
+  },
+  "low-customer-interaction": {
+    "data_analysis": 1,
+    "programming": 2,
+    "backend_development": 2,
+    "accounting": 3
+  },
+
+  "low-responsibility": {
+    "data_entry": 2,
+    "delivery_driver": 2,
+    "janitorial": 2,
+    "retail_sales": 2
+  },
+  "moderate-responsibility": {
+    "project_management": 2,
+    "human_resources": 2,
+    "teaching": 1,
+    "nursing": 1
+  },
+  "high-responsibility": {
+    "executive_management": 2,
+    "law": 2,
+    "engineering": 1,
+    "medicine": 3
+  },
+  "low-tech": {
+    "retail": 2,
+    "food_service": 2,
+    "hospitality": 1,
+    "janitorial": 1
+  },
+  "moderate-tech": {
+    "marketing": 2,
+    "administration": 2,
+    "engineering": 1,
+    "logistics": 1
+  },
+  "high-tech": {
+    "IT": 2,
+    "software_development": 2,
+    "research": 1,
+    "data_analysis": 1
   }
 }
