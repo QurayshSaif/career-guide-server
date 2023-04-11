@@ -3,67 +3,70 @@
     "healthcare": 2,
     "education": 2,
     "counseling": 1,
-    "customer_service": 1
+    "customer_service": 2
   },
   "data": {
     "finance": 2,
     "accounting": 2,
-    "statistics": 1,
-    "research": 1
+    "statistics": 2,
+    "research": 2
   },
   "ideas": {
-    "creative": 2,
-    "innovation": 2,
+    "creative": 3,
+    "innovation": 3,
     "strategy": 1,
-    "analysis": 1
+    "analysis": 1,
+    "technology": 2
   },
   "hands": {
-    "construction": 2,
+    "construction": 3,
     "manufacturing": 2,
-    "repair": 1,
+    "repair": 2,
     "maintenance": 1
   },
   "difference": {
     "social_work": 2,
     "non_profit": 2,
-    "public_service": 1,
+    "public_service": 3,
     "advocacy": 1
   },
   "salary": {
     "finance": 2,
     "law": 2,
-    "business": 1,
-    "technology": 1
+    "business": 3,
+    "technology": 2
   },
   "challenge": {
     "science": 2,
     "engineering": 2,
-    "research": 1,
-    "analysis": 1
+    "research": 2,
+    "analysis": 2,
+    "technology": 2
   },
   "innovation": {
     "technology": 2,
     "research": 2,
-    "design": 1,
-    "entrepreneurship": 1
+    "design": 2,
+    "entrepreneurship": 2
   },
   "meetings": {
     "management": 2,
     "sales": 2,
-    "human_resources": 1,
-    "marketing": 1
+    "human_resources": 3,
+    "marketing": 2
   },
   "solo": {
     "research": 2,
     "programming": 2,
-    "analysis": 1,
-    "writing": 1
+    "analysis": 2,
+    "writing": 2
   },
   "teamwork": {
-    "consulting": 2,
+    "consulting": 1,
     "design": 2,
-    "project_management": 1,
-    "entrepreneurship": 1
+    "project_management": 2,
+    "entrepreneurship": 3,
+    "technology": 1
   },
   "hands-on": {
     "construction": 2,
@@ -74,7 +77,6 @@
   "office": {
     "business": 2,
     "law": 2,
-    "technology": 1,
     "finance": 1
   },
   "outdoors": {
@@ -84,16 +86,19 @@
     "landscaping": 1
   },
   "home": {
-    "remote_work": 2,
+    "remote_work": 3,
     "writing": 2,
     "design": 1,
-    "consulting": 1
+    "consulting": 1,
+    "technology": 1
   },
   "fast-paced": {
     "emergency_services": 2,
     "hospitality": 2,
     "retail": 1,
-    "transportation": 1
+    "transportation": 1,
+    "technology": 1,
+    "finance": 1
   },
   "helping": {
     "healthcare": 2,
@@ -153,7 +158,8 @@
     "autonomy": 2,
     "variety": 2,
     "creativity": 1,
-    "adaptability": 1
+    "adaptability": 1,
+    "technology": 1
   },
   "part-time": {
     "work_life_balance": 2,
@@ -168,7 +174,7 @@
     "less_interruptions": 1
   },
   "collaborative": {
-    "teamwork": 2,
+    "technology": 1,
     "communication": 2,
     "support": 1,
     "brainstorming": 1
@@ -177,13 +183,13 @@
     "autonomy": 2,
     "selfdirection": 2,
     "flexibility": 1,
-    "focus": 1
+    "focus": 2
   },
   "structured": {
     "stability": 2,
     "clarity": 2,
-    "routine": 1,
-    "efficiency": 1
+    "routine": 3,
+    "efficiency": 2
   },
   "analysis": {
     "critical_thinking": 2,
@@ -465,7 +471,8 @@
   "technology": {
     "IT": 3,
     "software_development": 3,
-    "engineering": 1
+    "technology": 4,
+    "engineering": 2
   },
   "healthcare": {
     "nursing": 2,
@@ -476,7 +483,8 @@
   "finance": {
     "banking": 2,
     "investment_banking": 2,
-    "accounting": 1,
+    "accounting": 2,
+    "finance": 3,
     "insurance": 1
   },
   "education": {
@@ -492,10 +500,10 @@
     "sports": 3
   },
   "art": {
-    "fine_art": 2,
+    "fine_art": 3,
     "graphic_design": 2,
     "photography": 1,
-    "fashion": 1
+    "fashion": 2
   },
   "low-risk": {
     "government_jobs": 4,
